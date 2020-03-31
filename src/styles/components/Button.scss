@@ -1,0 +1,33 @@
+.Button {
+  color: white;
+  width: 25%;
+  height: 16%;
+  font-size: 6vmin;
+  border-color: black;
+
+  &:focus {
+    outline: 0px;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+
+  &.Button-Black {
+    background-color: var(--calculator-color-black);
+  }
+
+  &.Button-Gray {
+    background-color: var(--calculator-color-gray);
+  }
+
+  &.Button-Orange {
+    background-color: var(--calculator-color-orange);
+  }
+
+  &.Button-Large {
+    width: 50%;
+    text-align: left;
+    padding-left: 12%;
+  }
+}
